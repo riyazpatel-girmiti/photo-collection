@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ResourceConstants } from '../../constant/resource.constant';
+import { ConfigConstants } from '../../constant/config.constant';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +10,6 @@ export class ResourceService {
   }
 
   getConstValue(key: string): any {
-    return ResourceConstants.RESOURCES[key];
+    return ConfigConstants.CONFIGS[key];
   }
 }

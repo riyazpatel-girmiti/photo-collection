@@ -1,6 +1,6 @@
-export class ResourceConstants {
+export class ConfigConstants {
 
-  static RESOURCES = {
+  static CONFIGS = {
     'nav.searchKey.placeholder.value': 'Search Images',
     'showImage.image.not.found.message': 'No records found',
     'search.image.pageSize': 10,
@@ -9,8 +9,6 @@ export class ResourceConstants {
     'nav.Favorites.dropdown': 'My Favorites',
     'search.image.init,searchKey': 'Nature',
 
-
-    // Add to collection popup resources ;
     'addcollectionpopup.close.icon': 'close',
     'addcollectionpopup.add.icon': 'add',
     'addcollectionpopup.remove.icon': 'remove',
@@ -25,7 +23,6 @@ export class ResourceConstants {
     'addcollectionpopup.create.collection.heading.label': 'Create New Collection',
     'total.phots.label': 'Total Images : ',
 
-    // Favourite & collection resource Constant;
     'favourite.label.name': ' Collection',
     'favourite.label.number': '(3)',
     'favourite.collection1.label': 'Collection 1',
@@ -80,9 +77,6 @@ export class ResourceConstants {
     'manageCollections.image.name': 'Edit Collection',
     'name.already exist.lable': 'Collection Name already exists with the name - ',
     'ok.button.lable': 'Ok'
-
-
-
 
   };
 }
