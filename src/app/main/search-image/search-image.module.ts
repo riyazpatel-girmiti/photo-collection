@@ -2,7 +2,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { SearchImageRoutingModule } from './search-image-routing.module';
-import { SearchImageComponent } from '../../main/search-image/search-image.component';
+import { SearchImageComponent } from './search-image.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';

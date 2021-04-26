@@ -6,7 +6,7 @@ import { of } from 'rxjs';
 import { MatDialogRef, MatDialogModule } from '@angular/material/dialog';
 import { RouterTestingModule } from '@angular/router/testing';
 
-import { SearchImageService } from '../../services/main/search-image/search-image.service';
+import { SearchImageService } from '../../services/main/search/search.service';
 import { SearchImageComponent } from './search-image.component';
 
 let component: SearchImageComponent;

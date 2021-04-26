@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SearchImageService } from '../../services/main/search-image/search-image.service';
+import { SearchImageService } from '../../services/main/search/search.service';
 import { AuthorService } from '../../services/main/author/author.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ResourceService } from 'src/app/services/resource/resource.service';

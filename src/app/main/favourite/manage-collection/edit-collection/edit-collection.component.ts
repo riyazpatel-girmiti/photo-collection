@@ -5,7 +5,7 @@ import { ResourceService } from 'src/app/services/resource/resource.service';
 import { Store, select } from '@ngrx/store';
 import { DeleteCollection, UpdateCollection } from 'src/app/store/actions/searchImage.actions';
 import { Router } from '@angular/router';
-import { FavouriteService } from 'src/app/services/main/favourite/favourite.service';
+import { FavouriteService } from 'src/app/services/main/fav/fav.service';
 // import { Store, select } from '@ngrx/store';
 import * as imageReducer from '../../../../store/reducers/searchImage.reducer';
 import { NameExistsComponent } from 'src/app/share/name-exists/name-exists.component';

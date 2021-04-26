@@ -6,7 +6,7 @@ import { Observable, of } from 'rxjs';
 import { map, mergeMap, catchError } from 'rxjs/operators';
 import * as imageActions from '../../store/actions/searchImage.actions';
 import { ImageModel } from '../../store/models/image.model';
-import { SearchImageService } from 'src/app/services/main/search-image/search-image.service';
+import { SearchImageService } from 'src/app/services/main/search/search.service';
 
 @Injectable()
 export class ImageEffect {

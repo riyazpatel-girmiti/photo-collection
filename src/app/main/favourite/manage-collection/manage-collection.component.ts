@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FavouriteService } from '../../../services/main/favourite/favourite.service';
+import { FavouriteService } from '../../../services/main/fav/fav.service';
 import { MatDialog } from '@angular/material/dialog';
 import { EditCollectionComponent } from './edit-collection/edit-collection.component';
 import { ResourceService } from 'src/app/services/resource/resource.service';

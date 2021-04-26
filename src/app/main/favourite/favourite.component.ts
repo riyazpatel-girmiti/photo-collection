@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ResourceService } from '../../services/resource/resource.service';
-import { FavouriteService } from '../../services/main/favourite/favourite.service';
+import { FavouriteService } from '../../services/main/fav/fav.service';
 import { Router } from '@angular/router';
 
 import { Store, select } from '@ngrx/store';

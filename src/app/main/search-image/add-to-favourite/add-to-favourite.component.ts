@@ -3,7 +3,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef, MatDialog } from '@angular/material/dialog';
 import { ResourceService } from 'src/app/services/resource/resource.service';
 import { FormGroup, FormControl, Validators, AbstractControl } from '@angular/forms';
-import { FavouriteService } from '../../../services/main/favourite/favourite.service';
+import { FavouriteService } from '../../../services/main/fav/fav.service';
 import { Store, select } from '@ngrx/store';
 import * as imageReducer from '../../../store/reducers/searchImage.reducer';
 import { AddToCollection, createCollection, RemoveFromCollection } from 'src/app/store/actions/searchImage.actions';

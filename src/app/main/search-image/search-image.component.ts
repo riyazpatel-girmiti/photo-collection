@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { SearchImageService } from '../../services/main/search-image/search-image.service';
+import { SearchImageService } from '../../services/main/search/search.service';
 import { ResourceService } from 'src/app/services/resource/resource.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { NumberInput } from '@angular/cdk/coercion';
